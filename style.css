@@ -9,13 +9,15 @@
     text-decoration: none;
 }
 
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .wrapper{
-    margin-top: 56px ;
-    margin-left: 40px;
+    margin-top: 5rem;
     width: 279px;
     height: 451px;
-
 }
 
 .logo{
@@ -23,101 +25,104 @@
     justify-content: center;
 }
 
-form{
-    margin-top: 47.7px;
-}
-
-label{
-    font-size: 10px;
-    line-height: 19px;
-}
 
 input{
-    width: 278.97px;
-height: 41.45px;
-background-color: rgba(238, 238, 238, 0.6);
-border: none;
-border-radius: 3px;
-margin-top: 5px;
-}
-
-#checkbox{
-    width: 13px;
-height: 13.55px;
-border: 2.25829px solid #EEEEEE;
-
-border-radius: 2.25829px;
-}
-
-
-
-
-button{
-    color: white;
+    width: 17.5rem;
+    height: 2.9rem;
+    background: rgba(238, 238, 238, 0.6);
+    border-radius: 4px;
     border: none;
-    width: 278.97px;
-height: 37.46px;
-background: #00162A;
-border-radius: 1.59409px;
-font-size: 12px;
+    margin: 4px 0px;
+}
+
+form{
+    margin-top: 2rem;
+}
+label{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 19px;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.p-field{
+    margin-top: 0.5rem;
 }
 
 .a-action{
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
     display: flex;
     justify-content: space-between;
 }
 
-#f-pass a{
-font-style: normal;
-font-weight: 600;
-font-size: 10px;
-line-height: 19px;
-letter-spacing: 0.0772586px;
 
-color: rgba(0, 0, 0, 0.7);
+.a-action input{
+    width: 13.55px;
+height: 13.55px;
+
+background: #FFFFFF;
+border: 2.25829px solid #EEEEEE;
+border-radius: 2.25829px;
 }
 
-.l-remember label{
-font-weight: 600;
-font-size: 10px;
-line-height: 19px;
+.a-action a{
+    text-decoration: none;
+    color: #00162A;
+    font-size: 12px;
 }
 
-.a-action{
-    margin: 15px 0px;
-} 
-
-.e-field{
+.a-action label{
+    color: #00162A;
+    font-size: 12px;
 }
 
-.p-field{
-    margin: 8px 0px;
-
+button{
+    background-color: #00162A;
+    border-radius: 4px;
+    width: 17.5rem;
+    height: 2.9rem;
+    color: white;
+    border: none;
 }
+
+
+
+
+
+
+
 
 .icon{
-    margin-top: 30px;
-    width: 136.29px;
-    height: 29.21px;
     display: flex;
-    justify-content: space-around;
-   margin-left: 70px;
+    justify-content: center;
+}
+
+.icon img{
+    margin: 1rem 0.5rem;
 }
 
 .o-signup{
-    margin-top: 12.4px;
-    margin-left: 55px;
-
+    width: 17.5rem;
+    height: 2.9rem;    
+    display: flex;
+    justify-content: center;
 }
-
 
 .o-signup a{
-    color: #00162A;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
     
-    letter-spacing: 0.0772586px;
+    color: #00162A;
 }
+
+span{
+    font-weight: bold;
+}
+
+
+
+
+
+
 }
